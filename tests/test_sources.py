@@ -85,9 +85,10 @@ def test_college_release_teams_keep_divisions_and_exclude_lower_levels():
             if '/cfb_team_info/' in url:
                 return pd.DataFrame([{'team_id':i,'school':name,'mascot':'Team','classification':div,'conference':'Test'} for i,name,div in [(1,'FBS A','fbs'),(2,'FCS B','fcs'),(3,'Lower','ii')]])
             if '/cfb_schedules/' in url:
-                return pd.DataFrame([{'game_id':i,'home_id':1,'away_id':opp,'start_date':'2026-10-10T18:00:00Z','status':'scheduled','completed':False,'neutral_site':False} for i,opp in [(10,2),(11,3)]])
+                return pd.DataFrame([{'game_id':i,'home_id':1,'away_id':opp,'start_date':'2026-10-10T04:00:00Z','start_time_tbd':True,'status':'scheduled','completed':False,'neutral_site':False} for i,opp in [(10,2),(11,3)]])
             return pd.DataFrame()
     teams,games,boxes=college_football(Releases(),[2026])
     assert set(teams)=={'1','2'} and set(games)=={'10'}
     assert teams['1']['name']=='FBS A Team' and teams['1']['division']=='FBS'
     assert teams['2']['division']=='FCS'
+    assert games['10']['start'] is None and games['10']['date']=='2026-10-10'
