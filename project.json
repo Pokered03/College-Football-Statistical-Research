@@ -1,0 +1,12 @@
+{
+  "repository": "College-Football-Statistical-Research",
+  "sport": "cfb",
+  "independent": true,
+  "deployment_status": "not_deployed",
+  "scheduled_refresh_enabled": false,
+  "expected_teams": null,
+  "data_source_status": "integrated_with_documented_gaps",
+  "status": "locally_tested_development_build_incomplete",
+  "github_repository_created": false,
+  "local_tests_passed": 35
+}
