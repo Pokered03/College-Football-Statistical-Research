@@ -1,6 +1,6 @@
 # College Football Statistical Research Dashboard
 
-Status: **independently implemented and locally tested development build; not deployed; not complete.**
+Status: **live development dashboard with initial hosted checks; not complete.**
 
 This repository is a single-sport, standalone Streamlit research application. It has no runtime dependency on another project, no imports from another dashboard, and no access to the existing Multi-Sport Value Engine. Every project has its own SQLite file, worker, model, caches, dependency specification and optional refresh workflow.
 
@@ -87,3 +87,9 @@ Verify the free account’s app count, privacy rules, sleeping behavior, actual 
 The workflow commits the small prepared database and validation summary; Streamlit can redeploy from that commit. For long-term heavy use, monitor Git history growth and migrate the database to an independently managed approved object store. That storage integration is not configured.
 
 Do not mark this application complete until repository publication, automated refresh, real browser checks and actual hosted resource-limit testing have all passed.
+
+## Live deployment
+
+https://college-football-statistical-research.streamlit.app/
+
+Select FBS or FCS in the Division dropdown; there is no combined view. See HOSTED_VALIDATION.md for tested functionality, observed resource usage and remaining work. Daily free update at 10:41 UTC; provider freshness may lag. Reboot this independent deployment after imported engine code changes.
