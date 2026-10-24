@@ -69,12 +69,16 @@
     "controlled_restart_passed": true,
     "post_restart_process_peak_mib": 161.8,
     "refresh_success_seconds": 49,
-    "worker_update": "2026-10-24T18:56:20.242485+00:00",
+    "worker_update": "2026-10-24T19:02:24.862902+00:00",
     "division_selector_tested": [
       "FBS",
       "FCS"
     ],
-    "sustained_load_tested": false
+    "sustained_load_tested": false,
+    "second_session_independent_division_passed": true,
+    "tbd_time_display_tested": true,
+    "final_refresh_success_seconds": 46,
+    "final_refresh_run": "https://github.com/Pokered03/College-Football-Statistical-Research/actions/runs/40123412270"
   },
   "fcs_local_performance": {
     "division": "FCS",
