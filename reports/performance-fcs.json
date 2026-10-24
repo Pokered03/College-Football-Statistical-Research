@@ -1,0 +1,8 @@
+{
+  "division": "FCS",
+  "switches": 64,
+  "switch_p95_seconds": 0.08416868499989505,
+  "peak_rss_mib": 145.890625,
+  "environment": "local AppTest; not actual hosting",
+  "teams": 128
+}

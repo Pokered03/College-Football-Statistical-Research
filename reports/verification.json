@@ -55,8 +55,33 @@
     "target_peak_rss_mib": 650,
     "hosting_environment": false
   },
-  "deployment_tested": false,
+  "deployment_tested": true,
   "mobile_browser_tested": false,
-  "scheduled_refresh_active": false,
-  "github_published": false
+  "scheduled_refresh_active": true,
+  "github_published": true,
+  "hosted_initial_checks": {
+    "process_peak_mib": 166.6,
+    "exposed_host_limit_mib": 3072,
+    "container_samples_mib": [
+      688.9,
+      701.2
+    ],
+    "controlled_restart_passed": true,
+    "post_restart_process_peak_mib": 161.8,
+    "refresh_success_seconds": 49,
+    "worker_update": "2026-10-24T18:56:20.242485+00:00",
+    "division_selector_tested": [
+      "FBS",
+      "FCS"
+    ],
+    "sustained_load_tested": false
+  },
+  "fcs_local_performance": {
+    "division": "FCS",
+    "switches": 64,
+    "switch_p95_seconds": 0.08416868499989505,
+    "peak_rss_mib": 145.890625,
+    "environment": "local AppTest; not actual hosting",
+    "teams": 128
+  }
 }
