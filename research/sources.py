@@ -183,6 +183,7 @@ def college_football(fetch,seasons,advanced=False):
             h=sid(r['home_id']);a=sid(r['away_id'])
             if h not in teams or a not in teams:continue
             date,start=when(r['start_date'])
+            if truth(r.get('start_time_tbd')):start=None
             st=status(r.get('status'))
             if truth(r.get('completed')):st='final'
             g=game(r['game_id'],year,h,a,date,start,r.get('home_points'),r.get('away_points'),st,truth(r.get('neutral_site')),r.get('venue'))
