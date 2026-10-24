@@ -31,6 +31,8 @@ The worker was migrated to the publisher's SportsDataverse release store, whose 
 - Historical 2025 summaries rendered and stale retrospective probability was withheld. October 25 returned an empty FBS schedule and division-specific nearby source dates.
 - Initial hosted process memory sampled 166.6 MiB, exposed cgroup limit 3072 MiB, container usage about 688.9–701.2 MiB including other processes and file cache. These are initial observations, not sustained-load results.
 - A controlled reboot of only this deployment recovered. FBS default and FCS switching worked after restart; post-restart process peak 161.8 MiB. This verifies one ordinary restart, not extended failure recovery.
+- A second browser session displayed FBS while the original remained on FCS, verifying independent session selection (not a stress test).
+- Source kickoff times marked TBD are withheld rather than rendered as midnight; a regression test checks both missing time and retained research date. Final hosted refresh passed in 46 seconds (https://github.com/Pokered03/College-Football-Statistical-Research/actions/runs/40123412270), and the live FCS schedule displayed Time unavailable with worker timestamp 2026-10-24T19:02:24.862902+00:00.
 - Hosted workflow succeeded in 49 seconds: https://github.com/Pokered03/College-Football-Statistical-Research/actions/runs/40122948411 . Live UI picked up worker timestamp 2026-10-24T18:56:20.242485+00:00.
 
 ## Statistical validation and limits
