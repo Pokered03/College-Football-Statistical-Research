@@ -1,0 +1,6 @@
+SPORT='cfb'
+TITLE='College Football Statistical Research Dashboard'
+EXPECTED_TEAMS=None
+DEFAULT_SEASONS=[2024, 2025, 2026]
+MIN_TEAM_GAMES=3
+ACTIVE_SEASON=2026
