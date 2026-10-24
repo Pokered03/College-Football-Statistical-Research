@@ -1,0 +1,9 @@
+{
+  "sport": "cfb",
+  "operation": "Active-season cached free-data refresh plus full chronological validation",
+  "seconds": 3.8271344200002204,
+  "worker_peak_rss_mib": 243.62890625,
+  "exit_code": 0,
+  "target_peak_rss_mib": 650,
+  "hosting_environment": false
+}

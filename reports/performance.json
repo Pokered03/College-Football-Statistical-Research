@@ -1,0 +1,35 @@
+{
+  "sport": "cfb",
+  "environment": "local Streamlit AppTest; not deployed hosting",
+  "cold_render_seconds": 0.5258978479996586,
+  "initial_matchup_render_seconds": 0.0389992849995906,
+  "switch_p95_seconds": 0.08430566500101122,
+  "switches": 64,
+  "rss_samples": [
+    {
+      "switch": 8,
+      "peak_rss_mib": 139.4453125
+    },
+    {
+      "switch": 16,
+      "peak_rss_mib": 141.88671875
+    },
+    {
+      "switch": 32,
+      "peak_rss_mib": 144.6015625
+    },
+    {
+      "switch": 64,
+      "peak_rss_mib": 145.296875
+    }
+  ],
+  "peak_rss_mib": 145.296875,
+  "db_mib": 19.5234375,
+  "targets": {
+    "cold_render_seconds": 10,
+    "switch_p95_seconds": 2,
+    "peak_rss_mib": 350
+  },
+  "actual_host_limits_tested": false,
+  "local_targets_pass": true
+}

@@ -1,0 +1,19 @@
+{
+  "sport": "cfb",
+  "database_bytes": 20471808,
+  "seasons": [
+    {
+      "season": 2024,
+      "games": 1612
+    },
+    {
+      "season": 2025,
+      "games": 1625
+    },
+    {
+      "season": 2026,
+      "games": 1539
+    }
+  ],
+  "integrity": "ok"
+}
