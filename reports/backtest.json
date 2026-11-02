@@ -1,74 +1,74 @@
 {
-  "n": 1267,
-  "brier": 0.2048156746359967,
+  "n": 1278,
+  "brier": 0.2049780383518554,
   "baseline_brier": 0.25,
-  "accuracy": 0.6787687450670876,
-  "margin_mae": 14.635231477678076,
-  "total_mae": 13.05135101437791,
-  "ece": 0.03503074469215677,
+  "accuracy": 0.6784037558685446,
+  "margin_mae": 14.6325506699238,
+  "total_mae": 13.070966425596904,
+  "ece": 0.03504184882504407,
   "calibration_bins": [
     {
       "lower": 0.0,
       "n": 11,
-      "predicted": 0.0702215822606602,
+      "predicted": 0.07022160526261069,
       "observed": 0.09090909090909091
     },
     {
       "lower": 0.1,
       "n": 43,
-      "predicted": 0.16029368733195218,
+      "predicted": 0.16029371906408219,
       "observed": 0.11627906976744186
     },
     {
       "lower": 0.2,
-      "n": 79,
-      "predicted": 0.24948052535060808,
-      "observed": 0.2911392405063291
+      "n": 80,
+      "predicted": 0.24930803130288792,
+      "observed": 0.2875
     },
     {
       "lower": 0.3,
-      "n": 120,
-      "predicted": 0.35296656556813655,
-      "observed": 0.35833333333333334
+      "n": 123,
+      "predicted": 0.35301269748189945,
+      "observed": 0.36585365853658536
     },
     {
       "lower": 0.4,
-      "n": 148,
-      "predicted": 0.45470942795449415,
-      "observed": 0.40540540540540543
+      "n": 150,
+      "predicted": 0.45446786699631153,
+      "observed": 0.4066666666666667
     },
     {
       "lower": 0.5,
-      "n": 168,
-      "predicted": 0.5551563620663179,
-      "observed": 0.5
+      "n": 169,
+      "predicted": 0.5552722458388598,
+      "observed": 0.5029585798816568
     },
     {
       "lower": 0.6,
       "n": 246,
-      "predicted": 0.650130205654998,
+      "predicted": 0.6501302056690763,
       "observed": 0.6056910569105691
     },
     {
       "lower": 0.7,
-      "n": 202,
-      "predicted": 0.7513132485713044,
-      "observed": 0.7326732673267327
+      "n": 203,
+      "predicted": 0.7513813575736188,
+      "observed": 0.7339901477832512
     },
     {
       "lower": 0.8,
-      "n": 187,
-      "predicted": 0.8462950942529465,
-      "observed": 0.8181818181818182
+      "n": 190,
+      "predicted": 0.8460205359561436,
+      "observed": 0.8157894736842105
     },
     {
       "lower": 0.9,
       "n": 63,
-      "predicted": 0.9335072722728548,
+      "predicted": 0.9335072574781821,
       "observed": 0.9047619047619048
     }
   ],
-  "margin_interval_80_coverage": 0.7868981846882399,
+  "margin_interval_80_coverage": 0.7871674491392802,
   "version": "adjusted-score-v1",
   "status": "tested",
   "gate": true,
@@ -76,18 +76,18 @@
   "calibration_through": "2025-10-25",
   "test_from": "2025-10-28",
   "test_through": "2026-10-31",
-  "oos_games": 3015,
+  "oos_games": 3026,
   "calibrator": {
-    "intercept": -0.7692459415369508,
-    "slope": 1.4203006251289299
+    "intercept": -0.769245790364124,
+    "slope": 1.4203004707756945
   },
-  "margin_sd": 17.284855419636376,
-  "margin_q10": -26.19192408901997,
-  "margin_q90": 18.35643866410264,
-  "total_q10": -20.017727629104026,
-  "total_q90": 22.54118539944943,
-  "baseline_margin_mae": 16.64143547619525,
-  "baseline_total_mae": 13.648983621181543,
+  "margin_sd": 17.284855423907075,
+  "margin_q10": -26.19192398406672,
+  "margin_q90": 18.356438664009826,
+  "total_q10": -20.017727632712916,
+  "total_q90": 22.54118539954621,
+  "baseline_margin_mae": 16.619191556137256,
+  "baseline_total_mae": 13.660423323269704,
   "reason": "Gate requires >=200 calibration and test games, ECE <=0.10, Brier better than 50%, successful calibration. Thresholds are engineering safeguards, not proof of profitability.",
   "exclusions": "Draws excluded from win calibration; all scoring includes overtime/shootout scores as reported. No historical market prices are available; spread/total category reliability is unvalidated.",
   "market_validation": {
@@ -109,12 +109,12 @@
     }
   },
   "early": {
-    "n": 991,
-    "margin_mae": 14.710557954157462
+    "n": 1002,
+    "margin_mae": 14.706311758340126
   },
   "late": {
     "n": 276,
-    "margin_mae": 14.364765759594489
+    "margin_mae": 14.364765848934097
   },
-  "generated_at": "2026-11-01T11:12:52.391102+00:00"
+  "generated_at": "2026-11-02T11:28:48.333629+00:00"
 }
