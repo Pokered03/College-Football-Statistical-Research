@@ -1,93 +1,93 @@
 {
-  "n": 1283,
-  "brier": 0.20473908611378597,
+  "n": 1286,
+  "brier": 0.20457277714455335,
   "baseline_brier": 0.25,
-  "accuracy": 0.6788776305533905,
-  "margin_mae": 14.626596807977036,
-  "total_mae": 13.059652676699102,
-  "ece": 0.03489092851394289,
+  "accuracy": 0.6788491446345256,
+  "margin_mae": 14.637484700762172,
+  "total_mae": 13.071616907823014,
+  "ece": 0.034029905770744696,
   "calibration_bins": [
     {
       "lower": 0.0,
       "n": 11,
-      "predicted": 0.0702215822606602,
+      "predicted": 0.07022160526261069,
       "observed": 0.09090909090909091
     },
     {
       "lower": 0.1,
       "n": 44,
-      "predicted": 0.160948017063233,
+      "predicted": 0.16094804886093136,
       "observed": 0.11363636363636363
     },
     {
       "lower": 0.2,
-      "n": 81,
-      "predicted": 0.24975623114476037,
-      "observed": 0.2839506172839506
+      "n": 83,
+      "predicted": 0.2492894284190606,
+      "observed": 0.27710843373493976
     },
     {
       "lower": 0.3,
       "n": 124,
-      "predicted": 0.35299428712367587,
+      "predicted": 0.35299431601799114,
       "observed": 0.3629032258064516
     },
     {
       "lower": 0.4,
-      "n": 150,
-      "predicted": 0.45446784490809145,
-      "observed": 0.4066666666666667
+      "n": 151,
+      "predicted": 0.4544923706037026,
+      "observed": 0.4105960264900662
     },
     {
       "lower": 0.5,
       "n": 169,
-      "predicted": 0.5552722331962056,
+      "predicted": 0.5552722458388598,
       "observed": 0.5029585798816568
     },
     {
       "lower": 0.6,
       "n": 247,
-      "predicted": 0.6501448549585844,
+      "predicted": 0.6501448549712033,
       "observed": 0.6032388663967612
     },
     {
       "lower": 0.7,
       "n": 204,
-      "predicted": 0.7514975788692612,
+      "predicted": 0.7514975702725097,
       "observed": 0.7352941176470589
     },
     {
       "lower": 0.8,
       "n": 190,
-      "predicted": 0.8460205510519643,
+      "predicted": 0.8460205359561436,
       "observed": 0.8157894736842105
     },
     {
       "lower": 0.9,
       "n": 63,
-      "predicted": 0.9335072722728548,
+      "predicted": 0.9335072574781821,
       "observed": 0.9047619047619048
     }
   ],
-  "margin_interval_80_coverage": 0.7872174590802806,
+  "margin_interval_80_coverage": 0.786158631415241,
   "version": "adjusted-score-v1",
   "status": "tested",
   "gate": true,
   "calibration_n": 1748,
   "calibration_through": "2025-10-25",
   "test_from": "2025-10-28",
-  "test_through": "2026-11-04",
-  "oos_games": 3031,
+  "test_through": "2026-11-05",
+  "oos_games": 3034,
   "calibrator": {
-    "intercept": -0.7692459415369508,
-    "slope": 1.4203006251289299
+    "intercept": -0.769245790364124,
+    "slope": 1.4203004707756945
   },
-  "margin_sd": 17.284855419636376,
-  "margin_q10": -26.19192408901997,
-  "margin_q90": 18.35643866410264,
-  "total_q10": -20.017727629104026,
-  "total_q90": 22.54118539944943,
-  "baseline_margin_mae": 16.6119752262454,
-  "baseline_total_mae": 13.647905103692139,
+  "margin_sd": 17.284855423907075,
+  "margin_q10": -26.19192398406672,
+  "margin_q90": 18.356438664009826,
+  "total_q10": -20.017727632712916,
+  "total_q90": 22.54118539954621,
+  "baseline_margin_mae": 16.63294069332967,
+  "baseline_total_mae": 13.67025577239346,
   "reason": "Gate requires >=200 calibration and test games, ECE <=0.10, Brier better than 50%, successful calibration. Thresholds are engineering safeguards, not proof of profitability.",
   "exclusions": "Draws excluded from win calibration; all scoring includes overtime/shootout scores as reported. No historical market prices are available; spread/total category reliability is unvalidated.",
   "market_validation": {
@@ -109,12 +109,12 @@
     }
   },
   "early": {
-    "n": 1007,
-    "margin_mae": 14.698359836133525
+    "n": 1010,
+    "margin_mae": 14.712009852350835
   },
   "late": {
     "n": 276,
-    "margin_mae": 14.364765759594489
+    "margin_mae": 14.364765848934097
   },
-  "generated_at": "2026-11-05T11:32:02.445536+00:00"
+  "generated_at": "2026-11-06T11:29:22.649797+00:00"
 }
