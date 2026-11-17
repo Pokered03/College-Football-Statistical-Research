@@ -1,11 +1,11 @@
 {
-  "n": 1420,
-  "brier": 0.2063016896533696,
+  "n": 1421,
+  "brier": 0.20634683477191476,
   "baseline_brier": 0.25,
-  "accuracy": 0.6746478873239437,
-  "margin_mae": 14.499488781999585,
-  "total_mae": 13.307593331134159,
-  "ece": 0.04132603469476868,
+  "accuracy": 0.6741731175228712,
+  "margin_mae": 14.490537921183282,
+  "total_mae": 13.304752534367577,
+  "ece": 0.04093097705889386,
   "calibration_bins": [
     {
       "lower": 0.0,
@@ -33,9 +33,9 @@
     },
     {
       "lower": 0.4,
-      "n": 170,
-      "predicted": 0.4552229240400925,
-      "observed": 0.38235294117647056
+      "n": 171,
+      "predicted": 0.45536752175983847,
+      "observed": 0.38596491228070173
     },
     {
       "lower": 0.5,
@@ -68,15 +68,15 @@
       "observed": 0.9384615384615385
     }
   ],
-  "margin_interval_80_coverage": 0.7908450704225352,
+  "margin_interval_80_coverage": 0.7909922589725545,
   "version": "adjusted-score-v1",
   "status": "tested",
   "gate": true,
   "calibration_n": 1858,
   "calibration_through": "2025-11-01",
   "test_from": "2025-11-04",
-  "test_through": "2026-11-14",
-  "oos_games": 3278,
+  "test_through": "2026-11-15",
+  "oos_games": 3279,
   "calibrator": {
     "intercept": -0.7845791659443522,
     "slope": 1.4244712357720992
@@ -86,8 +86,8 @@
   "margin_q90": 18.30834231772436,
   "total_q10": -20.011367490777648,
   "total_q90": 22.266474759125476,
-  "baseline_margin_mae": 16.491730353120527,
-  "baseline_total_mae": 13.937605948367299,
+  "baseline_margin_mae": 16.480138287227888,
+  "baseline_total_mae": 13.936298101849845,
   "reason": "Gate requires >=200 calibration and test games, ECE <=0.10, Brier better than 50%, successful calibration. Thresholds are engineering safeguards, not proof of profitability.",
   "exclusions": "Draws excluded from win calibration; all scoring includes overtime/shootout scores as reported. No historical market prices are available; spread/total category reliability is unvalidated.",
   "market_validation": {
@@ -109,12 +109,12 @@
     }
   },
   "early": {
-    "n": 1125,
-    "margin_mae": 14.594517240278323
+    "n": 1126,
+    "margin_mae": 14.583136954596046
   },
   "late": {
     "n": 295,
     "margin_mae": 14.137092119072191
   },
-  "generated_at": "2026-11-16T11:48:38.735755+00:00"
+  "generated_at": "2026-11-17T19:22:32.196244+00:00"
 }
